@@ -4,7 +4,7 @@ $(document).ready(function(){
     // Directory stuff
 
     $("#home").click(function(){
-        window.location.href = "../../docs/home/home.html";
+        window.location.href = "../../docs/home/index.html";
     });
 
     $("#projects").click(function(){
