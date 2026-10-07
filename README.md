@@ -1,3 +1,7 @@
-# lsnowcodes.github.io
+# My Personal Website
 
-i swear i'm working on something
+Hello! My website is live at www.sakurafied.xyz
+
+This is all the code and logic behind my website. Created using JQuery.
+
+No there's nothing valuable here.

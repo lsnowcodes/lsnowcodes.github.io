@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="websiteGeneralBackground">
+<!-- JQuery being a bitch -->
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="module" src="home.js"></script>
+
+<link rel="stylesheet" type="text/css" href="home.css">
+<link rel="stylesheet" type="text/css" href="/resources/generalStyle.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lynn's Portfolio - Home</title>
+</head>
+
+<!-- Header and Body -->
+<div class="content">
+    <header>
+        <h1 class="websiteTitle">Lynn's Portfolio</h1>
+        <table class="websiteDirectory">
+            <tr class="directoryOptions">
+                <td><button id="home" class="boxActive" disabled>Home</button></td>
+                <td><button id="projects" class="boxDefault">Projects</button></td>
+                <td><button id="experience" class="boxDefault">Experience</button></td>
+                <td><button id="aboutme" class="boxDefault">About Me</button></td>
+                <td><button id="contact" class="boxDefault">Contact</button></td>
+            </tr>
+        </table>
+    </header>
+
+<!-- Makeshift Body -->
+    <div id="body">
+<!--        <img src="/resources/img" alt="Waving Hello!">-->
+        <p>Welcome to my website!</p>
+        <p>This is a place to get to know who I am and what I've worked on!</p>
+    </div>
+</div>
+
+<!-- Footer because apparently the footer is attached to the body -->
+<body class="websiteBody">
+    <footer class="websiteFooter">
+        <table class="websiteTableFooter">
+            <tr class="websiteTableFooter">
+                <td>Home</td>
+                <td>
+                    <p>Projects</p>
+                    <p>Experience</p>
+                </td>
+                <td>
+                    <p>About Me</p>
+                    <p>Contact</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
