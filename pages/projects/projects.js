@@ -3,7 +3,7 @@ $(document).ready(function(){
     console.log("jQuery installed!");
     // Directory stuff
     $("#home").click(function(){
-        window.location.href = "../../docs/home/index.html";
+        window.location.href = "../../docs/index.html";
     });
 
     $("#projects").click(function(){
