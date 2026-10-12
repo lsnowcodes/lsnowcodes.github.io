@@ -7,7 +7,7 @@ $(document).ready(function(){
     });
 
     $("#projects").click(function(){
-        window.location.href = "projects.html";
+        window.location.href = "./projects.html";
     });
 
     $("#experience").click(function(){
