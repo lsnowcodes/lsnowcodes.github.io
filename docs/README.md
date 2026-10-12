@@ -1,3 +1,5 @@
 # lsnowcodes.github.io
 
-/pages/home/home.html
+This is an ongoing project.
+
+We are getting there, I swear
