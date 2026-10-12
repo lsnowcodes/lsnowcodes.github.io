@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 
     $("#experience").click(function(){
-        window.location.href = "experience.html";
+        window.location.href = "./experience.html";
     });
 
     $("#aboutme").click(function(){

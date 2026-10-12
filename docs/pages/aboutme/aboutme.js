@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     $("#aboutme").click(function(){
-        window.location.href = "aboutme.html";
+        window.location.href = "./aboutme.html";
     });
 
     $("#contact").click(function(){

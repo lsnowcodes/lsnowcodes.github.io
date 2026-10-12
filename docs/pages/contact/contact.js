@@ -20,6 +20,6 @@ $(document).ready(function(){
     });
 
     $("#contact").click(function(){
-        window.location.href = "contact.html";
+        window.location.href = "./contact.html";
     });
 });
