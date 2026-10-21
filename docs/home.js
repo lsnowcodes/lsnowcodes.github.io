@@ -1,7 +1,11 @@
 // Event handling
 $(document).ready(function(){
-    console.log("jQuery installed!");
+    // console.log("jQuery installed!");
     // Directory stuff
+
+    $("#home").click(function(){
+        window.location.href = "index.html";
+    })
 
     $("#projects").click(function(){
         window.location.href = "pages/projects/projects.html";
@@ -18,4 +22,6 @@ $(document).ready(function(){
     $("#contact").click(function(){
         window.location.href = "pages/contact/contact.html";
     });
+
+    // Footer stuff
 });

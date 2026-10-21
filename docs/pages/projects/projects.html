@@ -3,7 +3,12 @@
 <!-- JQuery being a bitch -->
 <script src="https://code.jquery.com/jquery-4.0.0.js"
         integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
-        crossorigin="anonymous"></script><script type="module" src="projects.js"></script>
+        crossorigin="anonymous"></script>
+
+<!--<script type="module" src="projects.js"></script>-->
+<!-- Handles directory, where things link to, etc. -->
+<script type="module" src="../../resources/webDirectory.js"></script>
+
 
 <link rel="stylesheet" type="text/css" href="./projects.css">
 <link rel="stylesheet" type="text/css" href="../../resources/generalStyle.css">
@@ -39,14 +44,16 @@
 <footer class="websiteFooter">
   <table class="websiteTableFooter">
     <tr class="websiteTableFooter">
-      <td>Home</td>
       <td>
-        <p>Projects</p>
-        <p>Experience</p>
+        <p id="hText"><a href="">Home</a></p>
       </td>
       <td>
-        <p>About Me</p>
-        <p>Contact</p>
+        <p id="pText"><a href="">Projects</a></p>
+        <p id="eText"><a href="">Experience</a></p>
+      </td>
+      <td>
+        <p id="amText"><a href="">About Me</a></p>
+        <p id="cText"><a href="">Contact</a></p>
       </td>
     </tr>
   </table>

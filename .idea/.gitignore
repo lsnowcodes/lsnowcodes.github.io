@@ -8,4 +8,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/docs/resources/templates/
+#Template files
+../docs/resources/templates/

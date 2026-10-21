@@ -4,7 +4,11 @@
 <script src="https://code.jquery.com/jquery-4.0.0.js"
         integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
         crossorigin="anonymous"></script>
-<script type="module" src="home.js"></script>
+
+<!--<script type="module" src="home.js"></script>-->
+
+<!-- Handles directory, where things link to, etc. -->
+<script type="module" src="./resources/webDirectory.js"></script>
 
 <link rel="stylesheet" type="text/css" href="home.css">
 <link rel="stylesheet" type="text/css" href="./resources/generalStyle.css">
@@ -32,9 +36,10 @@
 <!-- Makeshift Body -->
     <div id="body">
 <!--        <img src="/resources/img" alt="Waving Hello!">-->
-        <h3>Yes, it's a little broken. Working on it</h3>
-        <p>Welcome to my website!</p>
-        <p>This is a place to get to know who I am and what I've worked on!</p>
+
+        <h3>Hi there, welcome!</h3>
+        <p>This website is an electronic portfolio about who I am and what projects I work on!</p>
+        <p>There are some parts of this website that are still in development, or will be changed as time goes on.</p>
     </div>
 </div>
 
@@ -43,14 +48,16 @@
     <footer class="websiteFooter">
         <table class="websiteTableFooter">
             <tr class="websiteTableFooter">
-                <td>Home</td>
                 <td>
-                    <p>Projects</p>
-                    <p>Experience</p>
+                    <p id="hText"><a href="">Home</a></p>
                 </td>
                 <td>
-                    <p>About Me</p>
-                    <p>Contact</p>
+                    <p id="pText"><a href="">Projects</a></p>
+                    <p id="eText"><a href="">Experience</a></p>
+                </td>
+                <td>
+                    <p id="amText"><a href="">About Me</a></p>
+                    <p id="cText"><a href="">Contact</a></p>
                 </td>
             </tr>
         </table>
